@@ -10,7 +10,9 @@ Feel free to replace this with your method of reading in the EEG data.
 
 This code uses Scipy and Numpy as well. 
 
-The feedback is provided as the average power on the left and right sides of the motor cortex, that is EEG channels C3, C3, CP3 on the left side and FC4, C4, CP4 on the right side. You can modify this information by modifying the channel locations in `channelLaplaceMatrix` in Line 44 of the code. 
+Put the MI-training.py in the modules and the rest of the filted in the media directory in your SNAP/src directory and use launcher.py from SNAP to run MI-training.py module. 
+The EEG system should be connected so that pylsl can read in the EEG data. The feedback is provided as the average power on the left and right sides of the motor cortex, that is EEG channels C3, C3, CP3 on the left side and FC4, C4, CP4 on the right side. You can modify this information by modifying the channel locations in `channelLaplaceMatrix` in Line 44 of the code. 
+
 
 
 ### Citation 
